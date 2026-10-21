@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="VOLT Athletics — train harder, move better, become stronger. Discover premium fitness programs and memberships.">
+  <title>VOLT ATHLETICS | Built Different</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="loader" aria-label="Loading website">
+    <div class="loader-brand">VOLT<span>.</span></div>
+    <div class="loader-track"><div class="loader-progress"></div></div>
+    <p>PREPARING YOUR NEXT LEVEL</p>
+  </div>
+
+  <div class="site-content">
+    <header class="header">
+      <a href="#home" class="brand" aria-label="VOLT Athletics home">
+        <span class="brand-mark">V<span class="lime">.</span></span>
+        <span class="brand-name">VOLT<span>ATHLETICS</span></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#trainers" class="nav-link">Trainers</a>
+        <a href="#membership" class="nav-link">Membership</a>
+        <a href="#contact" class="nav-cta">START YOUR JOURNEY <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-image"></div>
+        <div class="hero-shade"></div>
+
+        <div class="hero-content container">
+          <div class="eyebrow hero-eyebrow">
+            <span class="live-dot"></span>
+            MORE THAN A GYM. A MOVEMENT.
+          </div>
+
+          <h1 class="hero-title">
+            BUILT<br>
+            <span class="outline-text">BY</span> DISCIPLINE<span class="lime">.</span>
+          </h1>
+
+          <p class="hero-copy">
+            Excuses don't build strength. Consistency does.
+            Train with purpose. Push beyond limits. Become
+            the strongest version of yourself.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#membership" class="btn btn-primary">
+              FIND YOUR PLAN <span>↗</span>
+            </a>
+            <a href="#programs" class="btn btn-outline">
+              EXPLORE PROGRAMS <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-line"></span>
+            YOUR NEXT CHAPTER STARTS HERE
+          </div>
+        </div>
+
+        <div class="hero-side-label">STRENGTH · DISCIPLINE · PROGRESS</div>
+
+        <div class="hero-bottom container">
+          <div class="hero-metric">
+            <strong data-count="1200" data-suffix="+">0</strong>
+            <span>MEMBERS TRAINED</span>
+          </div>
+          <div class="hero-metric">
+            <strong data-count="12" data-suffix="+">0</strong>
+            <span>EXPERT COACHES</span>
+          </div>
+          <div class="hero-metric">
+            <strong data-count="8" data-suffix="">0</strong>
+            <span>YEARS OF EXCELLENCE</span>
+          </div>
+          <a href="#about" class="scroll-indicator">
+            <span class="scroll-circle">↓</span>
+            SCROLL TO DISCOVER
+          </a>
+        </div>
+      </section>
+
+      <!-- MOVING MARQUEE -->
+      <div class="marquee" aria-label="Train hard, stay consistent">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span>NO SHORTCUTS</span><i>✳</i>
+            <span>JUST RESULTS</span><i>✳</i>
+            <span>BUILT DIFFERENT</span><i>✳</i>
+            <span>STAY HUNGRY</span><i>✳</i>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span>NO SHORTCUTS</span><i>✳</i>
+            <span>JUST RESULTS</span><i>✳</i>
+            <span>BUILT DIFFERENT</span><i>✳</i>
+            <span>STAY HUNGRY</span><i>✳</i>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROGRAMS -->
+      <section class="section programs-section" id="programs">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="lime">01 /</span> WHAT WE DO</p>
+              <h2>FIND YOUR<br><span class="outline-text">STRENGTH.</span></h2>
+            </div>
+            <p class="section-description">
+              Every goal deserves a game plan. Find the training
+              that challenges you, motivates you, and gets results.
+            </p>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card reveal">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85" alt="Strength training equipment in a modern gym" loading="lazy">
+              <div class="card-shade"></div>
+              <div class="program-number">01</div>
+              <div class="program-content">
+                <span class="card-tag">BUILD POWER</span>
+                <h3>STRENGTH<br>TRAINING</h3>
+                <p>Build real strength with structured lifting and expert coaching.</p>
+                <a href="#contact" class="arrow-link" aria-label="Enquire about strength training">↗</a>
+              </div>
+            </article>
+
+            <article class="program-card reveal">
+              <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85" alt="Athlete performing an intense workout" loading="lazy">
+              <div class="card-shade"></div>
+              <div class="program-number">02</div>
+              <div class="program-content">
+                <span class="card-tag">PUSH LIMITS</span>
+                <h3>HIIT &<br>CONDITIONING</h3>
+                <p>High-energy sessions designed to improve endurance and fitness.</p>
+                <a href="#contact" class="arrow-link" aria-label="Enquire about HIIT training">↗</a>
+              </div>
+            </article>
+
+            <article class="program-card reveal">
+              <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=900&q=85" alt="Athlete training with free weights" loading="lazy">
+              <div class="card-shade"></div>
+              <div class="program-number">03</div>
+              <div class="program-content">
+                <span class="card-tag">SHAPE YOURSELF</span>
+                <h3>BODY<br>BUILDING</h3>
+                <p>Train with intention and develop your physique one rep at a time.</p>
+                <a href="#contact" class="arrow-link" aria-label="Enquire about bodybuilding">↗</a>
+              </div>
+            </article>
+
+            <article class="program-card reveal">
+              <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=85" alt="Personal trainer helping an athlete" loading="lazy">
+              <div class="card-shade"></div>
+              <div class="program-number">04</div>
+              <div class="program-content">
+                <span class="card-tag">YOUR OWN PLAN</span>
+                <h3>PERSONAL<br>COACHING</h3>
+                <p>Get individual attention, a tailored plan and ongoing guidance.</p>
+                <a href="#contact" class="arrow-link" aria-label="Enquire about personal coaching">↗</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about-section" id="about">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=1100&q=85" alt="Athlete working out in a gym" loading="lazy">
+            <div class="image-badge">
+              <span class="lime">NO.</span> 01
+              <small>MINDSET FIRST</small>
+            </div>
+            <div class="vertical-caption">THE VOLT STANDARD / EST. 2018</div>
+          </div>
+
+          <div class="about-content reveal">
+            <p class="eyebrow"><span class="lime">02 /</span> OUR PHILOSOPHY</p>
+            <h2>WE DON'T<br>DO <span class="lime">AVERAGE.</span></h2>
+            <p class="about-lead">
+              Your potential isn't a finish line. It's a starting point.
+            </p>
+            <p class="muted">
+              At VOLT, training is about more than lifting weights.
+              It's about building habits, developing discipline, and
+              becoming stronger in every part of life. Whatever your
+              starting point, your next level starts here.
+            </p>
+
+            <div class="value-list">
+              <div class="value-item">
+                <span class="value-icon">✳</span>
+                <div><h4>TRAIN WITH PURPOSE</h4><p>Structured sessions built around your goals.</p></div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">✳</span>
+                <div><h4>COMMUNITY THAT PUSHES YOU</h4><p>Surround yourself with people who raise the bar.</p></div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">✳</span>
+                <div><h4>PROGRESS THAT LASTS</h4><p>Build sustainable habits, not overnight promises.</p></div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">MEET YOUR NEW GYM <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats-section">
+        <div class="container stats-grid">
+          <div class="stat-box reveal"><strong data-count="1200" data-suffix="+">0</strong><span>MEMBERS & COUNTING</span></div>
+          <div class="stat-box reveal"><strong data-count="12" data-suffix="+">0</strong><span>EXPERIENCED COACHES</span></div>
+          <div class="stat-box reveal"><strong data-count="25" data-suffix="+">0</strong><span>WEEKLY GROUP SESSIONS</span></div>
+          <div class="stat-box reveal"><strong data-count="8" data-suffix="+">0</strong><span>YEARS IN FITNESS</span></div>
+        </div>
+      </section>
+
+      <!-- TRAINERS -->
+      <section class="section trainers-section" id="trainers">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="lime">03 /</span> THE PEOPLE BEHIND THE PROGRESS</p>
+              <h2>MEET YOUR<br><span class="outline-text">COACHES.</span></h2>
+            </div>
+            <p class="section-description">
+              Great coaching turns effort into progress.
+              Meet the team ready to help you level up.
+            </p>
+          </div>
+
+          <div class="trainer-grid">
+            <article class="trainer-card reveal">
+              <div class="trainer-image">
+                <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=750&q=85" alt="Alex Morgan, strength coach" loading="lazy">
+                <span class="trainer-index">COACH / 01</span>
+              </div>
+              <div class="trainer-info">
+                <div><h3>ALEX MORGAN</h3><p>STRENGTH & CONDITIONING</p></div>
+                <a href="#contact" class="arrow-link" aria-label="Ask about Alex's coaching">↗</a>
+              </div>
+            </article>
+            <article class="trainer-card reveal">
+              <div class="trainer-image">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=750&q=85" alt="Jordan Lee, performance coach" loading="lazy">
+                <span class="trainer-index">COACH / 02</span>
+              </div>
+              <div class="trainer-info">
+                <div><h3>JORDAN LEE</h3><p>BODYBUILDING & FITNESS</p></div>
+                <a href="#contact" class="arrow-link" aria-label="Ask about Jordan's coaching">↗</a>
+              </div>
+            </article>
+            <article class="trainer-card reveal">
+              <div class="trainer-image">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=750&q=85" alt="SAM Taylor, personal trainer" loading="lazy">
+                <span class="trainer-index">COACH / 03</span>
+              </div>
+              <div class="trainer-info">
+                <div><h3>SAM TAYLOR</h3><p>PERSONAL TRAINING</p></div>
+                <a href="#contact" class="arrow-link" aria-label="Ask about Sam's coaching">↗</a>
+              </div>
+            </article>
+          </div>
+          <p class="demo-note">Demo coach profiles and imagery — replace with your client's actual team.</p>
+        </div>
+      </section>
+
+      <!-- MEMBERSHIP -->
+      <section class="section membership-section" id="membership">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="lime">04 /</span> INVEST IN YOURSELF</p>
+              <h2>YOUR GOALS.<br><span class="outline-text">YOUR PLAN.</span></h2>
+            </div>
+            <p class="section-description">
+              Choose the membership that fits your ambition.
+              Contact our team to find the right plan for you.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <span class="plan-label">THE ESSENTIALS</span>
+              <h3>STARTER</h3>
+              <p class="price">₹999<span>/month</span></p>
+              <p class="plan-description">Everything you need to start building consistency.</p>
+              <div class="plan-divider"></div>
+              <ul>
+                <li>✓ Gym floor access</li>
+                <li>✓ Standard equipment</li>
+                <li>✓ Locker facilities</li>
+                <li>✓ General fitness orientation</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline full-btn plan-enquiry" data-plan="Starter">CHOOSE STARTER <span>↗</span></a>
+            </article>
+
+            <article class="price-card featured reveal">
+              <span class="popular-badge">MOST POPULAR</span>
+              <span class="plan-label">THE FULL EXPERIENCE</span>
+              <h3>PRO</h3>
+              <p class="price">₹1,799<span>/month</span></p>
+              <p class="plan-description">More guidance, more variety, more ways to progress.</p>
+              <div class="plan-divider"></div>
+              <ul>
+                <li>✓ Everything in Starter</li>
+                <li>✓ Group training sessions</li>
+                <li>✓ Monthly progress review</li>
+                <li>✓ Personalised fitness guidance</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary full-btn plan-enquiry" data-plan="Pro">CHOOSE PRO <span>↗</span></a>
+            </article>
+
+            <article class="price-card reveal">
+              <span class="plan-label">THE ELITE EXPERIENCE</span>
+              <h3>ELITE</h3>
+              <p class="price">₹2,999<span>/month</span></p>
+              <p class="plan-description">Personal attention for your biggest fitness goals.</p>
+              <div class="plan-divider"></div>
+              <ul>
+                <li>✓ Everything in Pro</li>
+                <li>✓ Personal coaching sessions</li>
+                <li>✓ Tailored training plan</li>
+                <li>✓ Priority coach consultations</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline full-btn plan-enquiry" data-plan="Elite">CHOOSE ELITE <span>↗</span></a>
+            </article>
+          </div>
+          <p class="demo-note">Illustrative prices only. Confirm actual fees, facilities and terms with the gym before publishing.</p>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <p class="eyebrow"><span class="lime">05 /</span> REAL PEOPLE. REAL EFFORT.</p>
+              <h2>THE WORK<br><span class="outline-text">SPEAKS.</span></h2>
+            </div>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+              <div class="stars">★★★★★</div>
+              <p class="quote">"The atmosphere makes you want to show up. The coaching has helped me train with more confidence and consistency."</p>
+              <div class="review-person"><span class="avatar">R</span><div><strong>Rohan P.</strong><small>GYM MEMBER</small></div></div>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="stars">★★★★★</div>
+              <p class="quote">"I finally found a place where I feel motivated to improve. The trainers are supportive and the environment is excellent."</p>
+              <div class="review-person"><span class="avatar">A</span><div><strong>Aanya S.</strong><small>GYM MEMBER</small></div></div>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="stars">★★★★★</div>
+              <p class="quote">"Having a plan and people who encourage me has made a real difference in how regularly I train."</p>
+              <div class="review-person"><span class="avatar">K</span><div><strong>Kunal M.</strong><small>GYM MEMBER</small></div></div>
+            </article>
+          </div>
+          <p class="demo-note">Sample testimonial copy and names. Replace with genuine, approved customer reviews.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-content reveal">
+            <p class="eyebrow"><span class="lime">06 /</span> YOUR NEXT MOVE</p>
+            <h2>READY TO<br>GET <span class="lime">STRONGER?</span></h2>
+            <p class="muted">Tell us what you're working towards. Our team will help you explore the right membership and training options.</p>
+
+            <div class="contact-detail">
+              <span class="contact-symbol">↗</span>
+              <div><small>VISIT US</small><p class="gym-address">Your Gym Address, Surat, Gujarat</p></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-symbol">◷</span>
+              <div><small>OPENING HOURS</small><p>Monday – Saturday · 6 AM – 10 PM</p></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-symbol">✆</span>
+              <div><small>CALL US</small><p class="gym-phone">+91 xxxxx xxxxx</p></div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="enquiry-form">
+            <div class="form-heading">
+              <span class="form-tag">START HERE</span>
+              <h3>LET'S TALK FITNESS.</h3>
+              <p>Fill in your details and enquire via WhatsApp.</p>
+            </div>
+
+            <label for="name">YOUR NAME</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+
+            <label for="goal">YOUR FITNESS GOAL</label>
+            <select id="goal" name="goal" required>
+              <option value="">Select your goal</option>
+              <option>Build muscle</option>
+              <option>Lose weight</option>
+              <option>Improve fitness</option>
+              <option>Personal training</option>
+              <option>General enquiry</option>
+            </select>
+
+            <label for="message">ANYTHING ELSE? <span>(OPTIONAL)</span></label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us a little about your goals"></textarea>
+
+            <button type="submit" class="btn btn-primary full-btn">
+              ENQUIRE ON WHATSAPP <span>↗</span>
+            </button>
+            <p class="form-footnote">Your details will be added to a WhatsApp enquiry. Nothing is submitted to a database by this demo.</p>
+          </form>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section class="final-cta">
+        <div class="container final-cta-inner reveal">
+          <p class="eyebrow">THE ONLY BAD WORKOUT IS THE ONE YOU NEVER START.</p>
+          <h2>STOP WAITING.<br><span class="lime">START MOVING.</span></h2>
+          <a href="#contact" class="btn btn-dark">LET'S GET STARTED <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-top">
+        <a href="#home" class="brand footer-brand">
+          <span class="brand-mark">V<span class="lime">.</span></span>
+          <span class="brand-name">VOLT<span>ATHLETICS</span></span>
+        </a>
+        <p>BUILT BY DISCIPLINE. POWERED BY YOU.</p>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> VOLT ATHLETICS. DEMO WEBSITE.</p>
+        <p>DESIGNED TO MOVE YOU.</p>
+      </div>
+    </footer>
+
+    <a href="#" class="whatsapp-float" id="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 3.2A12.5 12.5 0 0 0 5.2 22l-1.7 6.1 6.3-1.6A12.5 12.5 0 1 0 16 3.2Zm0 22.5c-2 0-4-.5-5.7-1.5l-.4-.2-3.7 1 1-3.6-.3-.5A10 10 0 1 1 16 25.7Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.1 8.1 0 0 1-2.5-1.6 9.4 9.4 0 0 1-1.7-2.1c-.2-.3 0-.5.2-.7l.5-.6.3-.5v-.6l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.2 1.4 3.4a13.6 13.6 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.3-.3-.6-.4Z"/>
+      </svg>
+    </a>
+  </div>
+</body>
+</html>
